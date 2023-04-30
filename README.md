@@ -3,39 +3,49 @@
 Bu bir şirket sitesi olacak ve şirketin hizmet verdiği sektörlere yönelik tanıtım içeriği yer alacak. Ayrıca, müşterilerin akıllı organizasyonlar yönetmelerine yardımcı olacak içerikler de sunulacak. Örnek olay incelemeleri de dahil olmak üzere, iş ortakları ve partnerlerle birlikte çalıştıkları projeler hakkında bilgi verilecek.
 
 Hakkımızda
-Şirket hakkında genel bilgi ve misyon/vizyon gibi konular yer alacak.
+Biz [Şirket Adı], [şirket hakkında genel bilgi] ve [misyon/vizyon] ile çalışıyoruz.
 
 Hizmetlerimiz
-Şirketin sunduğu ürünler ve hizmetler hakkında ayrıntılı bilgi verilecek. Bu bölüm kapsamlı olacak ve sektörlere özgü hizmetler de dahil edilecek.
+Şirketimiz, aşağıdaki hizmetleri sunmaktadır:
 
+[Hizmet 1]: [Hizmet 1 hakkında ayrıntılı bilgi]
+[Hizmet 2]: [Hizmet 2 hakkında ayrıntılı bilgi]
+[Hizmet 3]: [Hizmet 3 hakkında ayrıntılı bilgi]
+...
 Örnek Olay İncelemeleri
-Şirketin müşterilerine nasıl yardımcı olduğuna dair örnek olaylar paylaşılacak. Bu bölüm, potansiyel müşterilerin şirketin başarısına ve uzmanlığına dair fikir edinmelerine yardımcı olacak.
+Aşağıdaki örnek olaylar, şirketimizin müşterilerine nasıl yardımcı olduğuna dair bilgi vermektedir:
+
+[Örnek Olay 1]: [Örnek Olay 1 hakkında ayrıntılı bilgi]
+[Örnek Olay 2]: [Örnek Olay 2 hakkında ayrıntılı bilgi]
+[Örnek Olay 3]: [Örnek Olay 3 hakkında ayrıntılı bilgi]
+...
+Bu bölüm, potansiyel müşterilerin şirketin başarısına ve uzmanlığına dair fikir edinmelerine yardımcı olacak.
 
 İş Ortakları/Partnerler
-Şirketin iş ortakları ve partnerleri hakkında bilgi verilecek. Bu bölüm, şirketin güvenilirliği ve uzmanlığına dair bir işaret olarak hizmet verecek.
+Şirketimizin iş ortakları ve partnerleri aşağıdaki gibidir:
+
+[İş Ortakları/Partnerler 1]: [İş Ortakları/Partnerler 1 hakkında bilgi]
+[İş Ortakları/Partnerler 2]: [İş Ortakları/Partnerler 2 hakkında bilgi]
+[İş Ortakları/Partnerler 3]: [İş Ortakları/Partnerler 3 hakkında bilgi]
+...
+Bu bölüm, şirketimizin güvenilirliği ve uzmanlığına dair bir işaret olarak hizmet verecek.
 
 İletişim
-Şirketle iletişim kurmak isteyenler için ulaşım bilgileri ve iletişim formu yer alacak.
+Bizimle iletişim kurmak için aşağıdaki bilgileri kullanabilirsiniz:
 
+Adres: [Şirket Adresi]
+Telefon: [Şirket Telefon Numarası]
+E-posta: [Şirket E-posta Adresi]
+İletişim Formu: [İletişim Formu Linki]
 Bu site, bir şirketin müşterilerine nasıl yardımcı olduğunu ve hizmetlerinin ne olduğunu anlatmak için tasarlanmıştır.
 
-Kapsamlı içerik:
-Homepage
-Navbar menüden erişilebilen diğer sayfa bağlantıları
-Router ile sayfa geçişleri
-React component mimarisi kullanarak çalışma
-Switcher'lar ve footer'lar
-Düzenli dosyalama kullanarak component'lerin, stil dosyalarının, sayfaların ve font dosyalarının yönetimini yapma
-Resimlerin images klasörü altında saklanması
-Bootstrap kullanarak hizalama ve ölçeklendirme işlemlerini kolaylaştırma
-Responsive tasarım için çalışma
-Siteyi oluşturmak için React DOM kullanacağım. Bu component yapısı sayesinde, site işlevsel olacak ve benzer özellikleri başka yerlerde de kullanabileceğim. Siteyi hem bilgisayar hem de telefonlarda kullanmak için responsive tasarım yapacağım.
+Bu site için planladığımız component mimarisi
+Bu site için planladığımız component mimarisi, React Router kullanarak sayfa geçişleri sağlayacak. Bu sayede, sayfalar arasında hızlı ve kolay bir şekilde geçiş yapılabilir. Ayrıca, responsive tasarım için de çalışacağız. Bootstrap gibi bir framework kullanarak, hizalama ve ölçeklendirme işlemlerini kolaylaştıracağız.
 
-Dosyalama düzenim şu şekilde olacak:
+Dosyalama düzeni
+Component'lerimizi components klasörü altında düzenli bir şekilde saklayacağız. CSS dosyalarımızı style klasörü altında, sayfaları pages klasörü altında, font dosyalarını ise font klasörü altında saklayacağız. Resimlerimiz ise images klasörü altında yer alacak.
 
-Component'ler: components klasörü altında
-CSS dosyaları: style klasörü altında
-Sayfalar: pages klasörü altında
-Font dosyaları: font klasörü altında
-Resimler: images klasörü altında
-Bu sayede, dosyaları daha düzenli bir şekilde yönetebilirim.
+Böyle bir dosyalama düzeni, component'lerimizi, stil dosyalarımızı, sayfalarımızı, font dosyalarımızı ve resimlerimizi daha düzenli bir şekilde yönetmemizi sağlayacak. Bu sayede, daha kolay bir şekilde dosyalara erişebilir ve ihtiyacımız olduğunda kolayca güncelleme yapabiliriz.
+
+React DOM
+React DOM kullanarak, oluşturduğumuz component yapısı sayesinde site işlevsel olacak ve benzer özellikleri başka yerlerde de kullanabileceğiz. Ayrıca, responsive tasarım sayesinde, siteyi hem bilgisayar hem de telefonlarda kullanabiliriz.
