@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/QA5O9x4M)
+Markdown dili ile:
 Şirket Sitesi
 Bu bir şirket sitesi olacak ve şirketin hizmet verdiği sektörlere yönelik tanıtım içeriği yer alacak. Ayrıca, müşterilerin akıllı organizasyonlar yönetmelerine yardımcı olacak içerikler de sunulacak. Örnek olay incelemeleri de dahil olmak üzere, iş ortakları ve partnerlerle birlikte çalıştıkları projeler hakkında bilgi verilecek.
 
@@ -49,3 +50,6 @@ Böyle bir dosyalama düzeni, component'lerimizi, stil dosyalarımızı, sayfala
 
 React DOM
 React DOM kullanarak, oluşturduğumuz component yapısı sayesinde site işlevsel olacak ve benzer özellikleri başka yerlerde de kullanabileceğiz. Ayrıca, responsive tasarım sayesinde, siteyi hem bilgisayar hem de telefonlarda kullanabiliriz.
+
+![UmlDiyagram](https://user-images.githubusercontent.com/117825718/235891081-b192ba99-6a78-484b-abed-06ffc2cf81fb.png)
+
