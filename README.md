@@ -1,71 +1,50 @@
-# Getting Started with Create React App
+![UmlDiyagram](https://github.com/Iskenderun-Technical-University/ymg-donem-projesi-202523058-harun-akbulut/assets/117825718/b70edaa2-8e5f-4c2f-86c3-af181efac19b)
+Bu bir şirket sitesi olacak ve şirketin hizmet verdiği sektörlere yönelik tanıtım içeriği yer alacak. Ayrıca, müşterilerin akıllı organizasyonlar yönetmelerine yardımcı olacak içerikler de sunulacak. Örnek olay incelemeleri de dahil olmak üzere, iş ortakları ve partnerlerle birlikte çalıştıkları projeler hakkında bilgi verilecek.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hakkımızda
+Biz [Şirket Adı], [şirket hakkında genel bilgi] ve [misyon/vizyon] ile çalışıyoruz.
 
-## Available Scripts
+Hizmetlerimiz
+Şirketimiz, aşağıdaki hizmetleri sunmaktadır:
 
-In the project directory, you can run:
+[Hizmet 1]: [Hizmet 1 hakkında ayrıntılı bilgi]
+[Hizmet 2]: [Hizmet 2 hakkında ayrıntılı bilgi]
+[Hizmet 3]: [Hizmet 3 hakkında ayrıntılı bilgi]
+...
+Örnek Olay İncelemeleri
+Aşağıdaki örnek olaylar, şirketimizin müşterilerine nasıl yardımcı olduğuna dair bilgi vermektedir:
 
-### `npm start`
+[Örnek Olay 1]: [Örnek Olay 1 hakkında ayrıntılı bilgi]
+[Örnek Olay 2]: [Örnek Olay 2 hakkında ayrıntılı bilgi]
+[Örnek Olay 3]: [Örnek Olay 3 hakkında ayrıntılı bilgi]
+...
+Bu bölüm, potansiyel müşterilerin şirketin başarısına ve uzmanlığına dair fikir edinmelerine yardımcı olacak.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+İş Ortakları/Partnerler
+Şirketimizin iş ortakları ve partnerleri aşağıdaki gibidir:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[İş Ortakları/Partnerler 1]: [İş Ortakları/Partnerler 1 hakkında bilgi]
+[İş Ortakları/Partnerler 2]: [İş Ortakları/Partnerler 2 hakkında bilgi]
+[İş Ortakları/Partnerler 3]: [İş Ortakları/Partnerler 3 hakkında bilgi]
+...
+Bu bölüm, şirketimizin güvenilirliği ve uzmanlığına dair bir işaret olarak hizmet verecek.
 
-### `npm test`
+İletişim
+Bizimle iletişim kurmak için aşağıdaki bilgileri kullanabilirsiniz:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Adres: [Şirket Adresi]
+Telefon: [Şirket Telefon Numarası]
+E-posta: [Şirket E-posta Adresi]
+İletişim Formu: [İletişim Formu Linki]
+Bu site, bir şirketin müşterilerine nasıl yardımcı olduğunu ve hizmetlerinin ne olduğunu anlatmak için tasarlanmıştır.
 
-### `npm run build`
+Bu site için planladığımız component mimarisi
+Bu site için planladığımız component mimarisi, React Router kullanarak sayfa geçişleri sağlayacak. Bu sayede, sayfalar arasında hızlı ve kolay bir şekilde geçiş yapılabilir. Ayrıca, responsive tasarım için de çalışacağız. Bootstrap gibi bir framework kullanarak, hizalama ve ölçeklendirme işlemlerini kolaylaştıracağız.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dosyalama düzeni
+Component'lerimizi components klasörü altında düzenli bir şekilde saklayacağız. CSS dosyalarımızı style klasörü altında, sayfaları pages klasörü altında, font dosyalarını ise font klasörü altında saklayacağız. Resimlerimiz ise images klasörü altında yer alacak.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Böyle bir dosyalama düzeni, component'lerimizi, stil dosyalarımızı, sayfalarımızı, font dosyalarımızı ve resimlerimizi daha düzenli bir şekilde yönetmemizi sağlayacak. Bu sayede, daha kolay bir şekilde dosyalara erişebilir ve ihtiyacımız olduğunda kolayca güncelleme yapabiliriz.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-emre deneme
+React DOM
+React DOM kullanarak, oluşturduğumuz component yapısı sayesinde site işlevsel olacak ve benzer özellikleri başka yerlerde de kullanabileceğiz. Ayrıca, responsive tasarım sayesinde, siteyi hem bilgisayar hem de telefonlarda kullanabiliriz.
