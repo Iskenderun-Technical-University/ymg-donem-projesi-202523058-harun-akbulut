@@ -1,0 +1,41 @@
+.hfcg{
+    width: 230px;
+height: 61px;
+}
+.fs{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Mont;
+}
+.mor{
+    color: #93338C;
+}
+.rgm{
+    justify-content: space-around;
+}
+.fs ul {
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #353535;
+}
+.ücl{
+    margin-top: 200px;
+}
+.pnk{
+    color: #F35181;
+}
+.ylw{ 
+    color: #F98E4A
+
+}
+.grn{
+    color: #00B18A;
+
+}
+
+
+.dp{
+    margin-top: 200px;
+}

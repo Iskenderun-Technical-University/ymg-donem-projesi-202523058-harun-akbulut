@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .main-footer{
+    width: '100%' !important;
+    margin-top: 50 ;
+    flex-direction: column;
+    background-image: url();
+    background-repeat: none;
+  }
+  .row{
+    display: flex;
+  }
+  .aaa{
+    list-style-type: none;
+    /* LinkedIn */
+
+width: 101px;
+height: 31px;
+
+font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+text-align: center;
+
+/* darkblue */
+
+color: #285EA4;
+  }
+  .aaa  li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+  }
+  .aaa li a span{
+    margin-left: 1rem !important;
+  }
+  .fhc{
+
+    font-family: Mont-bold;
+    padding: 2%;
+
+font-size: 20px;
+font-weight: 700 ;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left; 
+
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+/* darkgrey */
+
+color: #353535;
+  
+  }
+ ul.list-unstyled {
+    font-family: Mont;
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  ul{
+ 
+  }
+ ul li {
+    padding-left: 2% ;
+    margin-top: 1rem;
+  }
+  
+  

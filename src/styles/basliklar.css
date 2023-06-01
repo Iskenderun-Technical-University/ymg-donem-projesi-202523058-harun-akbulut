@@ -1,0 +1,44 @@
+.headerbaslik{
+
+font-family: 'Mont';
+font-style: normal;
+
+font-size: 8vw;
+max-width: 90%;
+display: inline-block !important;
+text-align: center !important; 
+line-height: 46px;
+/* identical to box height */
+
+text-align: center;
+
+/* darkgrey */
+
+color: #353535;
+
+
+/* Inside auto layout */
+
+}
+.line{
+    width: 407px;
+height: 5px;
+
+/* pink */
+
+background: #F35181;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.deneme{
+    text-align: center;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

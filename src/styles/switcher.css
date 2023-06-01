@@ -1,0 +1,39 @@
+.anaBolum{
+    padding: 5px;
+    height: 60px;
+    background:  #E6E6E6;
+    border-radius: 15px;
+}
+
+
+.karaBtn{
+    
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color : #E6E6E6;
+    width: 50% !important;
+    height: 100%;
+    float: left;
+    background: #353535;
+    border-radius: 15px;
+    border-color: transparent ;
+}
+
+.akBtn{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #353535;
+    float: left;
+    width: 50% !important;
+    height: 100%;
+    background:  #E6E6E6;
+    border-radius: 15px;
+    border-color: transparent;
+    
+}

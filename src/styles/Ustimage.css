@@ -1,0 +1,28 @@
+.Text{
+    
+
+
+    font-family: Mont;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+}
+.Image{
+    height: 64px;
+    width: 61.127384185791016px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+.divS{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

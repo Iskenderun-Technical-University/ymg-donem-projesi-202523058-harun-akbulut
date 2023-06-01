@@ -1,0 +1,261 @@
+  body {
+    font-family: 'Mont';
+    src: url('../font/Mont-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Mont; 
+    src: url('../font/Mont-Light.otf') format('opentype');
+  }
+  @font-face {
+    font-family: Mont-bold;
+    src: url('../font/Mont-Bold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: Mont-book;
+    src: url(../font/Mont-Book.otf) format('opentype');
+  }
+
+  a:link {
+    color: #F98E4A;    
+  }
+  a:visited {
+    color: #F98E4A;   
+  }
+
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+
+  .div1 {
+    width: '100%' !important;
+    place-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+
+  }
+
+  .animate {
+    width: 576px;
+    height: 900px;
+    left: 752px;
+    top: -50px;
+
+  }
+
+  .animateText {
+    position: absolute;
+    width: 708px;
+    height: 204px;
+    left: 118px;
+    top: calc(50% - 204px/2 - 2050px);
+
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1440px !important;
+  }
+
+  .We-are{ 
+    background-image: url('../images/WeAre.svg') ; /*Bu kısıma arka plan resmi eklenecek selinaydan alınıp*/
+    background-repeat:no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px; 
+    
+  }
+  .we-are-inner{ /*company sayfasında eklenen bir kısımdır arka plan fotoğrafı gelince aktif edilecek */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+    text-align: center;
+    padding-top: 5px;
+    background-color: rgba(255,255,255,0);
+  }
+
+
+  hr {
+    border-top: none !important;
+    opacity: 1 !important;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+
+    height: 58 px;
+    box-shadow: 0 1 px 3 px 0 rgba(0, 0, 0, 0.07),
+    0 1 px 2 px 0 #0000000d;
+    color: #212529;
+  }
+
+  .baseDiv{
+    width:100%;
+    margin-top: 35px;
+    
+  }
+
+  .logoDiv{
+    width:30%;
+    float:left;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  .navBar{
+    width:30%; 
+    float:right;
+    margin-right: -250px;
+    margin-top: 20px;
+  }
+
+
+  .menus {
+  display: flex;
+  list-style: none;
+  }
+  
+  .menu-items {
+    margin-top: 5%  ;
+    padding: 0% !important;
+    position: relative;
+    font-family: 'Mont';
+    font-style: normal; 
+  }
+
+
+  .menu-items a {
+    display: block;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .menu-items button {
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid transparent;
+  }
+
+
+  .menu-items a,
+  .menu-items button {
+  text-align: left;
+  padding: 0.7rem 1rem;
+
+  }
+
+  .menu-items a:hover,
+  .menu-items button:hover {
+  background-color: #FFFFFF;
+
+  }
+
+  .menu-items button:hover{
+  
+    border-top: 2px solid  #93338C !important;
+
+  }
+
+  .dropdown {
+    position: absolute;
+    left: -7px ;
+    right: -150px;
+    top: 85%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    font-size: 0.875 rem;
+    z-index: 9999;
+    min-width: 10 rem;
+    padding: 0.5 rem 0;
+    list-style: none;
+    background-color: #FFFFFF;
+    display: none;
+    border-bottom: 2px solid  #93338C;
+
+    border-radius: 2px;
+  }
+
+  .dropdown.show {
+    display: block;
+    left: 0px;
+  }
+
+  .dropdown.dropdown-submenu {
+      position: absolute;
+      left: 100%;
+      margin-top: -7px;    
+  }
+
+  .nav_toggler div{
+      width: 1.5rem;
+      height: 0.2rem;
+      margin: 0.2rem;
+      background-color: black;
+  }
+
+  .nav_toggler{
+      cursor: pointer;
+      display: none; 
+      margin-left: auto;
+      position: fixed;
+      margin-top: 28%;
+  }
+
+
+
+  @media screen and (max-width: 900px){
+    .nav_toggler{
+        display: block;
+    }
+    .menus{
+        position: fixed;
+        top: 22vh;
+        left: 0;
+        width: 50%;
+        height: 93vh;
+        background: white;
+        flex-direction: column;
+        transform: translateX(-100%);
+        transition: 0.5s ease-in;
+        
+    }
+  }
+
+  .nav_active{
+    transform: translateX(0);
+  }
